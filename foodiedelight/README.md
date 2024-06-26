@@ -59,6 +59,10 @@ To install and run the project locally:
      ng serve
      ```
    - Access the application at `http://localhost:4200`.
+  
+   -  cd .\src\
+   -  json-server --watch db.json --port 3000
+   - Access the db at `http://localhost:3000`.
 ---
 2. Features
 
