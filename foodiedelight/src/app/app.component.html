@@ -1,0 +1,23 @@
+<div class="app-container">
+  <div class="content">
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>{{ title }}</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a (click)="navigateToListRestaurants()">List Restaurants</a></li>
+          <li><a (click)="navigateToAddRestaurant()">Add Restaurant</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <router-outlet></router-outlet>
+
+    </main>
+  </div>
+  <footer class="footer">
+    &copy; 2024 FoodieDelight. All rights reserved.
+  </footer>
+</div>

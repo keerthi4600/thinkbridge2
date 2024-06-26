@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>Restaurant Detail</h2>
+    <div *ngIf="restaurant">
+      <h3>{{ restaurant.name }}</h3>
+      <p>{{ restaurant.description }}</p>
+      <p>{{ restaurant.location }}</p>
+      <img src="{{ restaurant.imageUrl || 'assets/default.png' }}" alt="{{ restaurant.name }}">
+    </div>
+    <button (click)="goBack()">Back</button>
+  </div>
+  

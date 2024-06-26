@@ -1,0 +1,38 @@
+<div class="container">
+    <h2>{{ isEditMode ? 'Edit Restaurant' : 'Add Restaurant' }}</h2>
+    <form (ngSubmit)="onSubmit()" #restaurantForm="ngForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" [(ngModel)]="restaurant.name" required #name="ngModel">
+        <div *ngIf="restaurantForm.submitted && name.invalid" class="error">Name is required</div>
+      </div>
+  
+      <div>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" [(ngModel)]="restaurant.description" required #description="ngModel"></textarea>
+        <div *ngIf="restaurantForm.submitted && description.invalid" class="error">Description is required</div>
+      </div>
+  
+      <div>
+        <label for="location">Location:</label>
+        <select id="location" name="location" [(ngModel)]="restaurant.location" required #location="ngModel">
+          <option *ngFor="let loc of locations" [value]="loc">{{ loc }}</option>
+        </select>
+        <div *ngIf="restaurantForm.submitted && location.invalid" class="error">Location is required</div>
+      </div>
+      
+      <div>
+        <label for="imageUrl">Image URL:</label>
+        <input type="text" id="imageUrl" name="imageUrl" [(ngModel)]="restaurant.imageUrl">
+      </div>
+  
+      <div class="button-container">
+          <button type="submit">
+
+          <!--[disabled]="restaurantForm.invalid">-->
+            {{ isEditMode ? 'Update' : 'Add' }}
+          </button>
+      </div>
+    </form>
+  </div>
+  

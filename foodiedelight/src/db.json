@@ -1,0 +1,23 @@
+{
+  "restaurants": [
+    {
+      "id": "96a8",
+      "name": "pizza corner",
+      "description": "best pizza center in town",
+      "location": "Location B",
+      "imageUrl": "https://scontent.fmaa9-1.fna.fbcdn.net/v/t39.30808-6/299893718_209809824710772_2699572196033152010_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=EhhsofIRHwoQ7kNvgEzPjSG&_nc_ht=scontent.fmaa9-1.fna&oh=00_AYArT1dH8GOcw4xmuUm8GzI7lxoZPfdx2lCuFJc_XqVUDA&oe=6680829B"
+    },
+    {
+      "id": "69be",
+      "name": "buger king",
+      "description": "All types of burgers avialble",
+      "location": "Banglore"
+    },
+    {
+      "id": "fa69",
+      "name": "asd",
+      "description": "as",
+      "location": "Location B"
+    }
+  ]
+}
