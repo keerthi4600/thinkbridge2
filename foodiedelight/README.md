@@ -60,64 +60,7 @@ To install and run the project locally:
      ```
    - Access the application at `http://localhost:4200`.
 ---
-
-## 3. Architecture and Design
-
-Angular Project Structure
-foodiedelight/
-│
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── restaurant-list/
-│   │   │   │   ├── restaurant-list.component.ts
-│   │   │   │   ├── restaurant-list.component.html
-│   │   │   │   ├── restaurant-list.component.css
-│   │   │   │   ├── restaurant-list.component.spec.ts
-│   │   │   │   └── index.ts (optional)
-│   │   │   ├── restaurant-detail/
-│   │   │   │   ├── restaurant-detail.component.ts
-│   │   │   │   ├── restaurant-detail.component.html
-│   │   │   │   ├── restaurant-detail.component.css
-│   │   │   │   ├── restaurant-detail.component.spec.ts
-│   │   │   │   └── index.ts (optional)
-│   │   │   ├── restaurant-form/
-│   │   │   │   ├── restaurant-form.component.ts
-│   │   │   │   ├── restaurant-form.component.html
-│   │   │   │   ├── restaurant-form.component.css
-│   │   │   │   ├── restaurant-form.component.spec.ts
-│   │   │   │   └── index.ts (optional)
-│   │   ├── models/
-│   │   │   ├── restaurant.model.ts
-│   │   │   └── index.ts (optional)
-│   │   ├── services/
-│   │   │   ├── restaurant.service.ts
-│   │   │   └── index.ts (optional)
-│   │   ├── app-routing.module.ts
-│   │   ├── app.component.ts
-│   │   ├── app.component.html
-│   │   ├── app.component.css
-│   │   └── app.module.ts
-│   ├── assets/
-│   │   ├── default.jpg
-│   │   └── other assets (images, fonts, etc.)
-│   ├── environments/
-│   │   ├── environment.prod.ts
-│   │   └── environment.ts
-│   ├── index.html
-│   ├── styles.css
-│   └── main.ts
-├── db.json
-├── package.json
-├── angular.json
-├── tsconfig.json
-├── README.md
-└── other configuration files
-
-
-Creating a full project documentation can be extensive, so here's a detailed template for documenting your "foodiedelight" project. This template covers various sections and subsections you might include. Feel free to adjust it further based on your specific project details and requirements.
-
-## 4. Features
+2. Features
 
 ### Feature 1: Restaurant Listing
 - Description: Allows users to browse a list of restaurants.
@@ -132,13 +75,13 @@ Creating a full project documentation can be extensive, so here's a detailed tem
 - Functionality: CRUD operations for restaurants.
 
 
-## 5. Technologies Used
+3. Technologies Used
 
 ### Frameworks
 - Angular (version 14)
 
 
-## 6. Development
+4. Development
 
 ### Coding Standards
 - Follow Angular Style Guide for coding conventions.
